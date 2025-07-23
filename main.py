@@ -1,4 +1,5 @@
-from models.user import User
+from models.product import Product
 
 
-User.create_user()
+for product in Product.load_product():
+    print(product.name)

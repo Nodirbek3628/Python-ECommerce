@@ -3,7 +3,7 @@ from datetime import datetime
 from uuid import uuid4
 from utils import (
     make_password, is_valid_username, print_status,
-    is_valid_password,
+    is_valid_password,is_valid_phone,
 )
 
 
@@ -76,10 +76,16 @@ class User:
 
         if not is_valid_username(username):
             print_status("username xato kiritildi.", "error")
+        
+        elif not is_valid_phone(phone):
+            print_status("Telefon raqamni tog'ri formatda kiriting (masalan: 901234567) ","Error")
+
         elif User.check_username(username):
             print_status("username tanlangean.", 'error')
+
         elif not is_valid_password(password):
             print_status("password xato kiritildi.", "error")
+            
         elif password != confirm_password:
             print_status("password va confirm password mos emas.", "error")
         else:

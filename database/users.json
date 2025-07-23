@@ -8,5 +8,45 @@
     "last_name": "ali",
     "age": "123",
     "gender": "male"
+  },
+  {
+    "id": "ff80dbf0-7521-48c7-9ba3-b88ae399da99",
+    "username": "ali23",
+    "password": "ef797c8118f02dfb649607dd5d3f8c7623048c9c063d532cc95c5ed7a898a64f",
+    "phone": "913333628",
+    "first_name": "alikxon",
+    "last_name": "aliyev",
+    "age": "45",
+    "gender": "male"
+  },
+  {
+    "id": "59d55dae-6c4c-4871-a00b-a767c02c0c1d",
+    "username": "daff44",
+    "password": "1723c926a267f46b3fe5ab430e8d5a94e03048d557cee951fba83b5fddff1aee",
+    "phone": "666666",
+    "first_name": "efwefwe",
+    "last_name": "fwf",
+    "age": "fef",
+    "gender": "f"
+  },
+  {
+    "id": "95d3d2a4-b25a-435e-911d-f2e24481a061",
+    "username": "jons",
+    "password": "932f3c1b56257ce8539ac269d7aab42550dacf8818d075f0bdf1990562aae3ef",
+    "phone": "123456789",
+    "first_name": "alijon",
+    "last_name": "giyos",
+    "age": "45",
+    "gender": "male"
+  },
+  {
+    "id": "4d5a5831-4398-4446-887e-8c1630450784",
+    "username": "asi",
+    "password": "5bbbf680c9cbdbe190e7ad66e62e7dd9fc19581faf5dc110064affca36873704",
+    "phone": "913333628",
+    "first_name": "asilwayn",
+    "last_name": "vavvvvv",
+    "age": "25",
+    "gender": "male"
   }
 ]
