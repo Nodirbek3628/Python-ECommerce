@@ -101,3 +101,13 @@ class User:
                 return True
             
         return False
+    @classmethod
+    def login(cls):
+        username = input("Username")
+        password = input("Pasword")
+
+        hashe_pasword = make_password(password)
+        
+        for user in cls.load_users():
+            if user.username == username and user.password == hashe_pasword:
+                return user

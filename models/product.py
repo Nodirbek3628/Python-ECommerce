@@ -30,7 +30,7 @@ class Product:
         }
     @classmethod
     def from_dict(cls,data:dict):
-        return  cls(
+        return cls(
             id = data["id"],
             name = data["name"],
             description = data["description"],

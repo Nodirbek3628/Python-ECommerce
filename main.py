@@ -1,5 +1,10 @@
-from models.product import Product
+from models import User, Order
 
 
-for product in Product.load_product():
-    print(product.name)
+
+User.create_user
+
+user = User.login()
+
+if user:
+    order = Order.create_order(user.id)
