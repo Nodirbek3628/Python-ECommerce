@@ -5,8 +5,9 @@ from uuid import uuid4
 
 class Order:
     
-    def __init__(self,id,product_id_id,in_stock,created_at,updated_at):
+    def __init__(self,id,order_id,product_id,created_at,updated_at):
         self.id = id
+        self.order_id = order_id
         self.product_id = product_id
         self.created_at = datetime
         self.updated_at = datetime
